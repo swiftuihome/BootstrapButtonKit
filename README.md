@@ -141,14 +141,20 @@ VStack(spacing: 20) {
 .padding()
 ```
 
-## 颜色预览
+## 完整演示
 
 您可以使用内置的`BootstrapButtonView`来预览所有可用颜色和样式：
 
 ```swift
+import SwiftUI
+import BootstrapButtonKit
+
 struct ContentView: View {
     var body: some View {
-        BootstrapButtonView()
+        NavigationStack {
+            BootstrapButtonDemoView()
+                .navigationTitle("Demo")
+        }
     }
 }
 ```
