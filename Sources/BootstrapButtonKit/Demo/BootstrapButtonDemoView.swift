@@ -13,6 +13,8 @@ public struct BootstrapButtonDemoView: View {
     let variants: [BootstrapButtonVariant] = [.solid, .outline]
     let roundedOptions: [BootstrapButtonRounded] = [.square, .capsule, .custom(6)]
     
+    public init() {}
+    
     public var body: some View {
         ScrollView {
             VStack(spacing: 20) {
