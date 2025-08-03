@@ -53,6 +53,12 @@ public enum Shade: Int, CaseIterable {
 
 ## 按钮使用指南
 
+### 导入工具
+
+```swift
+import BootstrapButtonKit
+```
+
 ### 基本用法
 
 ```swift
