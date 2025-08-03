@@ -143,7 +143,7 @@ VStack(spacing: 20) {
 
 ## 完整演示
 
-您可以使用内置的`BootstrapButtonView`来预览所有可用颜色和样式：
+您可以使用内置的`BootstrapButtonDemoView`来预览所有可用颜色和样式：
 
 ```swift
 import SwiftUI

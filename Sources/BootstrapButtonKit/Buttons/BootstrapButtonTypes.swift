@@ -11,13 +11,13 @@ import SwiftUI
 public enum BootstrapButtonRounded {
     case square
     case capsule
-    case custom(CGFloat)
+    case custom(CGFloat? = 6)
     
     public var cornerRadius: CGFloat {
         switch self {
         case .square: return 0
         case .capsule: return .infinity
-        case .custom(let radius): return radius
+        case .custom(let radius): return radius ?? 6
         }
     }
 }

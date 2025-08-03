@@ -11,7 +11,7 @@ import SwiftUI
 public struct BootstrapButtonDemoView: View {
     let sizes: [BootstrapButtonSize] = [.small, .medium, .large]
     let variants: [BootstrapButtonVariant] = [.solid, .outline]
-    let roundedOptions: [BootstrapButtonRounded] = [.square, .capsule, .custom(6)]
+    let roundedOptions: [BootstrapButtonRounded] = [.square, .capsule, .custom(12)]
     
     public init() {}
     
@@ -106,10 +106,4 @@ public struct BootstrapButtonDemoView: View {
 
 #Preview {
     BootstrapButtonDemoView()
-        .preferredColorScheme(.dark)
-}
-
-#Preview {
-    BootstrapButtonDemoView()
-        .preferredColorScheme(.light)
 }

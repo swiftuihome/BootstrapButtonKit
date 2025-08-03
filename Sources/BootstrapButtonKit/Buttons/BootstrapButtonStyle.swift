@@ -22,7 +22,7 @@ public struct BootstrapButtonStyle: ButtonStyle {
         variant: BootstrapButtonVariant = .solid,
         layout: BootstrapButtonLayout = .expanded,
         isDisabled: Bool = false,
-        rounded: BootstrapButtonRounded = .custom(6)
+        rounded: BootstrapButtonRounded = .custom()
     ) {
         self.tint = tint
         self.size = size

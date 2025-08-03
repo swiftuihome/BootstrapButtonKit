@@ -26,15 +26,3 @@ extension BootstrapColor {
         backgroundColor.adjustBrightness(percentage: -abs(percentage))
     }
 }
-
-// MARK: - 颜色调试扩展
-extension BootstrapColor: CustomDebugStringConvertible {
-    public var debugDescription: String {
-        if let themeColor = themeColor {
-            return "ThemeColor.\(themeColor.rawValue)"
-        } else if let shadedColor = shadedColor, let shade = shade {
-            return "ShadedColor.\(shadedColor.rawValue)-\(shade.rawValue)"
-        }
-        return "UnknownColor"
-    }
-}
